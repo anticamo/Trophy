@@ -23,28 +23,28 @@ namespace Trophy
         private readonly ModSettingHotkey trophiesButton = new ModSettingHotkey(KeyCode.U, HotkeyModifier.None)
         {
             displayName = "Give Trophies",
-            requiresRestart = true,
+            requiresRestart = false,
             icon = VanillaSprites.TrophyIcon
         };
 
         private readonly ModSettingHotkey giveMonkeyMoney = new ModSettingHotkey(KeyCode.B, HotkeyModifier.None)
         {
             displayName = "Give Monkey Money",
-            requiresRestart = true,
+            requiresRestart = false,
             icon = VanillaSprites.PileOMonkeyMoneyShop
         };
 
         private readonly ModSettingHotkey unlockAllItems = new ModSettingHotkey(KeyCode.X, HotkeyModifier.None)
         {
             displayName = "Unlock All Trophy Items",
-            requiresRestart = true,
+            requiresRestart = false,
             icon = VanillaSprites.WinningTrophy
         };
 
         private readonly ModSettingHotkey resetMonkeyMoney = new ModSettingHotkey(KeyCode.L, HotkeyModifier.None)
         {
             displayName = "Reset Monkey Money To 0",
-            requiresRestart = true,
+            requiresRestart = false,
             icon = VanillaSprites.HalfCashIcon
         };
 

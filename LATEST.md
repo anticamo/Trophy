@@ -1,1 +1,1 @@
-Release
+Changed: requiresRestart = false

@@ -6,6 +6,7 @@
 Trophy
 </h1>
 
+
 Lets you set your monkey money and trophies.
 
 Go to the settings with BTD6 Mod Helper to change the values and keybinds!
